@@ -1,0 +1,129 @@
+.medal-worthy-brands {
+  padding: 4rem 2rem;
+}
+
+.medal-worthy-brands h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.slider-photos {
+  padding: 2rem 0rem;
+}
+
+.slider-1-photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.div-card {
+  width: 25%;
+  padding: 0.4rem 0rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.3rem 0.4rem;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #778899a1;
+}
+
+.shop-card {
+  width: 18%;
+}
+
+.shop-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.shop-pad-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* fixed-offer-template */
+.fixed-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  height: auto;
+  background-color: #6f5959;
+  position: fixed;
+  top: 42%;
+  right: 0;
+  cursor: pointer;
+}
+
+.fixed-svg,
+.fixed-text {
+  padding: 0.4rem 0.5rem;
+}
+
+.fixed-svg svg {
+  fill: white;
+}
+
+.fixed-text {
+  color: white;
+}
+
+.fixed-text h1 {
+  font-size: 20px;
+}
+
+.bell-icon {
+  padding: 1rem;
+  position: fixed;
+  top: 59%;
+  right: 4%;
+}
+
+.bell-icon:hover {
+  animation: shake 0.2s infinite linear;
+}
+
+.bell-icon svg {
+  fill: #00b2ff;
+  width: 33px;
+  height: 39px;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
